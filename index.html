@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style."/>
+ <meta name="viewport" content="width=device-width ,scale=1">
+
+   
+     <title>G Web</title>
+  <style>
+  img{
+     height:310px;
+      width:230px ; 
+      float:left;
+     border:100px;
+     border-radius:50px;
+  }
+
+  p2{
+   float:left; 
+  }
+  i{
+    color : yellow;
+  }
+p3{
+float:left  
+  
+}
+   body{
+      background:linear-gradient(to right,white,skyblue);
+     
+    
+   }
+  
+     #Nice{
+        height:310px;
+         width:230px ; 
+        float:left;
+     
+ }
+#notch{
+   border:100px;
+   border-radius:50px;
+   background:linear-gradient(to right,black,white);
+   font-size:15.6px;
+   padding:10px;
+   text-align:center;
+
+} 
+   a{
+      color:white;
+}
+   a:hover{
+      font-size:20px;
+   }   
+   video{
+   height:270px
+    width:120px      
+   }
+   </style>
+</head>
+<body>
+  <h1>
+    Welcome to G Web
+  </h1>
+   <div id="notch"> 
+      <a href="index.html"><b>Home</b></a>
+      &nbsp
+      <a href="partnership.html"><b>Partnerships</b></a>
+      &nbsp
+      <a href="contacts.html"><b>Contact</b></a> 
+      &nbsp
+      <a href="service.html"><b>Service</b></a> 
+      &nbsp
+      <a href="about.html"><b>About</b></a>  
+      <br />
+      <br />
+      <br />
+   </div>
+   <p>I’m Gontse Segoe. Web Developer from Soweto 🇿🇦
+
+I build fast websites for businesses that hate slow loading. 
+
+Scroll down to see my work. No long stories - just proof.</p>
+
+   <div id="Nice">
+   <img src="images/Gontse Segoe.jpg" style="cursor-pointer" alt="boy posing"/>
+   </div>
+   <br />
+   <br />
+   <p2>Tired of websites that lose you customers?
+
+I’m Gontse - I code mobile-first sites for SA businesses.
+
+Fast on data. Clean on design. Built to get you sales, not stress.
+
+My suit says professional. My code proves it.</p2>
+   <br />
+   <br />
+ <img id="image audio" src="images/Gontse 3.jpg" style="cursor:pointer;"/>
+   <audio id="image sound"  src="Audio/Sales pitch.mp3"></audio>
+   
+   <script>
+  
+   document.getElementById('image audio').onclick = function(){
+     var audio = document.getElementById('image sound');
+     if(audio.paused){
+         return audio.play();
+     }
+     else{
+        audio.pause();
+     }
+  } 
+   </script>
+   <p2>
+   <small>image above plays audio</small>
+  </p2>
+ </body>
+</html>
