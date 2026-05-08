@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+   <meta name="viewport" content="width=device-width ,scale=1">
+  <title>about</title> 
+  <style>
+    a{
+      color:white;
+}
+   a:hover{
+      font-size:20px;
+   }
+  body{
+      background:linear-gradient(to right,white,skyblue); 
+   }
+  #notch{
+   border:100px;
+   border-radius:50px;
+   background:linear-gradient(to right,black,white);
+   font-size:15.6px;
+   padding:10px;
+   text-align:center;
+
+} 
+  img{
+     height:330px;
+      width:230px ; 
+      float:left;
+     border:100px;
+     border-radius:50px;
+  }
+
+  .image-row {
+  display: flex;           /* Makes images horizontal 🔥 */
+  gap: 15px;               /* Space between images */
+  overflow-x: auto;        /* Scroll sideways on phone 📱 */
+  padding: 10px 0;         /* Breathing room */
+}
+
+.image-row img {
+  width: 230px;            /* Same size for all */
+  height: 330px;           /* Square = clean */
+  object-fit: cover;       /* No stretching */
+  border-radius: 30px;     /* Soft corners = modern */
+  flex-shrink: 0;          /* Stops squishing on mobile */
+}
+  
+  .video-row{
+  display: flex;           /* Makes images horizontal 🔥 */
+  gap: 15px;               /* Space between images */
+  overflow-x: auto;        /* Scroll sideways on phone 📱 */
+  padding: 10px 0;         /* Breathing room */
+}
+
+.video-row video {
+  width: 230px;            /* Same size for all */
+  height: 330px;           /* Square = clean */
+  object-fit: cover;       /* No stretching */
+  border-radius: 30px;     /* Soft corners = modern */
+  flex-shrink: 0; 
+  }
+ 
+  </style>
+</head>
+<body>
+<h1>About</h1>
+  <div id="notch"> 
+      <a href="index.html"><b>Home</b></a>
+      &nbsp
+      <a href="partnership.html"><b>Partnerships</b></a>
+      &nbsp
+      <a href="contacts.html"><b>Contact</b></a> 
+      &nbsp
+      <a href="service.html"><b>Service</b></a> 
+      &nbsp
+      <a href="about.html"><b>About</b></a>  
+      <br />
+      <br />
+      <br />
+   </div>
+  <p>Hey, I’m Gontse
+
+I don’t just "make websites". I build your online salesman.
+
+Works 24/7. Never asks for leave. Speaks to clients while you sleep.
+
+Based in Soweto. Building for the world.
+See the proof below ↓</p>
+  <h3><b>ShowCase Room</b></h3>
+  <div class="image-row">
+  
+  <img   id="vidPhoto"src="images/Future(GS).jpg" />
+  <img src="images/Future(GS).jpg"/>
+  </div>
+  <p>This are AI generated images</p>
+  <div class="video-row">
+  <video id="vidMe"   src="video/displayWeb.mp4" autoplay muted loop playsinline></video>
+    <video controls src="video/thedev.mp4" autoplay muted loop playsinline></video>
+  </div>
+</body>
+</html>
